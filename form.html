@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="form_css.css">
+    </head>
+    <body>
+        <header> 
+            <ul>
+                <li><a href="https://www.tothenew.com/"><b>TO THE NEW</b></a></li>
+                <li style="float: right"><a href="">Quick Help</a></li>
+                <li style="float: right"><a href="">Home</a></li>
+            </ul>
+        </header>
+        <div class="center">
+            <h1>Bug Report</h1>
+            <form action="#">
+                <label for="title">Title*</label><br>
+                <input type="text" id="title" name="title" required><br>
+                <label for="description" id="description">Description*</label><br>
+                <textarea type="description" name="description" rows="4" cols="50" required></textarea>
+                <div class="dropdown">
+                    <label for="operatingsystem">Operating System:</label><br>
+                    <button class="dropbtn">Windows</button>
+                    <div class="dropdown-content">
+                        <a href="#">Windows</a>
+                        <a href="#">MAC OS</a>
+                        <a href="#">Linux</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <label for="product">Product:*</label><br>
+                    <button class="dropbtn">Formoid</button>
+                    <div class="dropdown-content">
+                        <a href="#">Formoid</a>
+                        <a href="#">Bootstrap</a>
+                        <a href="#">JavaScript</a>
+                    </div>
+                </div>
+                <label for="version">Version*</label><br>
+                <input type="text" id="version" name="version" required><br>
+                <label for="license">License:</label><br>
+                <input type="radio" id="version" name="version" value="Free">Free
+                <input type="radio" id="version" name="version" value="Business">Business
+                <div class="dropdown">
+                    <label for="severity">Severity:</label><br>
+                    <button class="dropbtn">Critical</button>
+                    <div class="dropdown-content">
+                        <a href="#">Critical</a> 
+                        <a href="#">Normal</a>
+                        <a href="#">None</a>
+                    </div>
+                </div>
+                <label for="attachments">Attachments:</label><br>
+                <input type="file" id="myFile" name="filename"><br><br>
+                
+                <input type="submit" class="submit" value="Send">
+            </form>
+
+        </div>
+    </body>
+</html>

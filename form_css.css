@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+}
+
+li a{
+    font-size: 25px;
+    color: aquamarine;
+    text-decoration: none;
+    text-align: center;
+    display: inline;
+    padding: 14px 16px;
+}
+
+li a:hover{
+    background-color: aquamarine;
+    color: aliceblue;
+}
+
+.center{
+    position: absolute;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    border: 2px aquamarine solid;
+    border-radius: 5px;
+}
+header{
+    padding: 0;
+    margin: 0;
+
+}
+
+.center h1{
+    color: white;
+    background-color: gray;
+    text-align: left;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 0 5px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+textarea[type="description"]{
+    width: 100%;
+    padding: 0 5px;  
+    border-radius: 5px; 
+}
+.dropbtn{
+    text-align: left;
+    background-color: aquamarine; 
+    color: aliceblue;
+    padding: 0 5px;
+    font-size: 16px;
+    border: 1px aquamarine solid;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 95%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 0;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    color: white;
+    background-color: rgb(176, 240, 219);
+}
+  
+.dropdown:hover .dropdown-content {
+      display: block;
+}
+  
+.dropdown:hover .dropbtn {
+        background-color: white;
+        color: aquamarine;
+}
+
+.submit{
+    float: right;
+    background-color: aquamarine; 
+    color: aliceblue;
+    padding: 5px 5px;
+    font-size: 16px;
+    border: 1px aquamarine solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: white;
+        color: aquamarine;
+}
